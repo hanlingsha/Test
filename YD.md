@@ -10,7 +10,7 @@ public class yidong {//在主窗口中移动hello world
 		jf.setBounds(100, 100, 400, 300);
 		final Label j1=new Label("Hello World");
 		j1.addMouseMotionListener(new MouseMotionAdapter() {
-			public void mouseDragged(java.awt.event.MouseEvent e) { 
+		public void mouseDragged(java.awt.event.MouseEvent e) { 
 				j1.setLocation(e.getX() , e.getY()); 
 			} 
 		}); 
