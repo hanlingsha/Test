@@ -14,9 +14,8 @@ public class yidong {//在主窗口中移动hello world
 	j1.setLocation(e.getX() , e.getY()); 
 	} 
 	}); 
-	jf.add(j1);
+	jf.add(j1); 
 	j1.setVisible(true);
 	jf.setVisible(true); 
 	}
-
 }
